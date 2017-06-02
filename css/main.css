@@ -3,5 +3,77 @@ body {
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
-  /* Enlaza la tipografia Open Sans */
+  font-family: 'Open Sans';
+}
+
+.link{
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
+}
+
+.menu{
+  padding: 0 70px;
+  overflow: auto;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.flex-container{
+	display: flex;
+}
+
+.menu.flex-container{
+	justify-content: flex-start;
+}
+
+.logo-container{
+	margin-left: auto;
+	margin-right: 20px;
+}
+
+.flex-container .logo{
+	width: 70px;
+	height: 70px;
+}
+
+/* Home */
+
+#home{
+	height: 600px;
+
+	background-image: url(../assets/images/bg-home.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	color:whitesmoke;
+}
+
+.text-home{
+	font-size: 2.4em;
+}
+
+.btn-home{
+  background: #2Ecc71;
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
 }
