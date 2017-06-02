@@ -77,3 +77,29 @@ a:hover {
   display: inline-block;
   font-size: 14px;
 }
+
+#services{
+	background-color: #F17C72;
+	text-align: center;
+	color: #fff;
+	padding: 70px;
+}
+
+#services.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.box-services{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+footer{
+  text-align: center;
+  height: 70px;
+  background-color: #373b47;
+  color: white;
+  padding-top: 7px;
+}
+
