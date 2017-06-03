@@ -14,3 +14,8 @@
 .text-uppercase {
   text-transform: uppercase;
 }
+
+.img-responsive{
+	max-width: 85%;
+	width: 100%;
+}
