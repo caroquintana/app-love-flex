@@ -95,15 +95,8 @@ a:hover {
 	font-weight: bold;
 }
 
-/* Footer */
-footer{
-	text-align: center;
-	height: 70px;
-	background-color: #373b47;
-	color: white;
-	padding-top: 7px;
-	}
 
+/* EJERCICIO EVALUADO */
 /* Work */
 #work{
 	text-align: center;
@@ -115,22 +108,20 @@ footer{
 	width: 75%;
     height: 816px;
 }
-#work.flex-container{
+.presentation.flex-container{
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
-
 /* galeria */
-#galeria-1, #galeria-2, #galeria-3 {
-	text-align: center;
-	color: #373B47;
-	padding: 55px;
+.imgn{
+	width: 350px;
+	margin-top: 64px;
 }
 
-#galeria-1.flex-container, #galeria-2.flex-container, #galeria-3.flex-container{
-	justify-content: space-between;
-	align-items: flex-start;
+.galeria.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 .text-work{
@@ -138,6 +129,13 @@ footer{
   letter-spacing: 2px;
 }
 
-.img-galeria{
-	width: 85%;
-}
+/* Footer */
+footer{
+	text-align: center;
+	height: 70px;
+	background-color: #373b47;
+	color: white;
+	padding-top: 7px;
+	}
+
+
