@@ -138,4 +138,44 @@ footer{
 	padding-top: 7px;
 	}
 
+/* Modal */
 
+
+#cajamodal{
+  background-color: rgba(63,63,63,1.0);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.hide{
+  display: none;
+}
+
+.imgn{
+  cursor: pointer;
+}
+
+.imgn:hover{
+  background-color: rgba(255,255,255,0.2);
+}
+
+#cajamodal .modal-body{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px;
+}
+
+#cajamodal .close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#cajamodal .close img{
+  width: 60px;
+}
