@@ -97,10 +97,38 @@ a:hover {
 
 /* Footer */
 footer{
-  text-align: center;
-  height: 70px;
-  background-color: #373b47;
-  color: white;
-  padding-top: 7px;
+	text-align: center;
+	height: 70px;
+	background-color: #373b47;
+	color: white;
+	padding-top: 7px;
+	}
+
+/* Work */
+#work{
+	text-align: center;
+  	color: #373b47;
+  	padding: 70px 40px;
+}
+
+img.img-responsive {
+    height: 700px;
+}
+
+#work.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+/* galeria */
+#galeria-1{
+	text-align: center;
+	color: #373B47;
+	padding: 70px;
+}
+
+#galeria-1.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
